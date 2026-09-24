@@ -98,5 +98,5 @@ jobs:
         run: |
           while ($true) {
             Write-Host "[$(Get-Date)] INFINITE RDP is active..."
-            Start-Sleep-secend 300
+            Start-Sleep-Seconds 300
           }
